@@ -1,2 +1,13 @@
-HOWTO convert .docx to text
-this was converted using PERL pandoc 
+HOWTO convert .docx to plaintext
+using pandoc -v
+pandoc 3.1.13
+Features: +server +lua
+Scripting engine: Lua 5.4
+User data directory: /data/data/com.termux/files/home/.local/share/pandoc
+Copyright (C) 2006-2023 John MacFarlane. Web: https://pandoc.org
+This is free software; see the source for copying conditions. There is no
+warranty, not even for merchantability or fitness for a particular purpose.this was converted using PERL pandoc 3.1.13 
+
+pandoc freePress™_-_Google_Edition.493.3162.02704.bce793ca02283c4b75a261de58c2757c.docx -t plain -o out.txt
+
+GNU nano 8.2 is used for wordcount in filename
