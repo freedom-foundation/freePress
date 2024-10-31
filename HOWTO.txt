@@ -10,4 +10,23 @@ warranty, not even for merchantability or fitness for a particular purpose.this 
 
 pandoc freePress™_-_Google_Edition.493.3162.02704.bce793ca02283c4b75a261de58c2757c.docx -t plain -o out.txt
 
+next remove newlines for a single line 
+
+perl -p -i -e 's/\R//g;' filename
+
 GNU nano 8.2 is used for wordcount in filename
+
+from help:
+
+press Meta(ALT)+D to Count the number of lines, words, and characters
+
+[ 1 line,  422 words,  3155 characters ]
+
+Then simply append that to the filename freePress.1.422.3155
+
+Now notice the command file gives a different count- less one.
+
+~/freePress $ file freePress.1.422.3155.txt
+freePress.1.422.3155.txt: Unicode text, UTF-8 text, with very long lines (3154), with no line terminators
+
+This may be because of a file terminator or trailing whitespace implied by nano. This needs to be figured out.
