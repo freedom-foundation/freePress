@@ -1,6 +1,6 @@
 # freePress
-freePress™ open trademark specification 
-freePress™ is an open trademark specification.
+
+The perfect stile of this organization shall be "freePress" the word free and press conjoined having only capitalized the P of the word press and in italics Ariel font with the demarcation of trademark when available. "freePress™" We the people FreePeople Isaiah 53:1. Who hath beleeued our report? candidCamera A candid camera shall be a camera whic
 
 Contents:
 
